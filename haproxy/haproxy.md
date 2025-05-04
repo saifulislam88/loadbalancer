@@ -30,7 +30,6 @@ frontend http_front
 # Backend configuration
 backend apache_backend
     balance roundrobin
-    option httpchk HEAD / HTTP/1.1\r\nHost:localhost
     server web1 192.168.56.101:80 check
     server web2 192.168.56.102:80 check
 
