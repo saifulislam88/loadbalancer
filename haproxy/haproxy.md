@@ -1,4 +1,4 @@
-sh
+```sh
 
 # Global settings
 global
@@ -42,4 +42,5 @@ listen stats
     stats uri /stats
     stats refresh 10s
     stats auth admin:admin123
-...sh
+```
+
